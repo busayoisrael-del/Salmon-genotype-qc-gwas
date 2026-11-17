@@ -7,14 +7,14 @@
 # Prerequisites:
 #   - PLINK 1.9 (or 2.0 compatible flags)
 #   - Input files:
-#       new_phr_call_cod.ped
-#       new_phr_call_cod.map
+#       myfile.ped
+#       myfile.map
 # =============================================================================
 
 set -euo pipefail
 
 # ---------- User-configurable variables ----------
-PREFIX_IN="new_phr_call_cod"   # base name of the Axiom export
+PREFIX_IN="myfile"   # base name of the Axiom export
 PREFIX_OUT="file1"             # intermediate PLINK prefix
 CHR_SET=29                     # Atlantic salmon autosomes + sex chromosomes
 
